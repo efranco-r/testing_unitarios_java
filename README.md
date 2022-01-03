@@ -5,7 +5,7 @@
   <a href="https://www.crehana.com/clases/v2/12147/detalle/">
     <img src="images/curso.png" alt="Logo" width="160" height="50">
   </a>
-  <a href="https://www.linkedin.com/in/pontefederico/">
+  <a href="https://www.linkedin.com/in/saccoandres/">
     <img src="images/teacher.png" alt="Logo" width="160" height="50">
   </a>
 </div>
@@ -13,14 +13,13 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/crehana-studentxp/html-introduccion">
+  <a href="https://github.com/crehana-studentxp/testing_unitarios_java-Andres_Sacco">
     <img src="images/project.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Curso de Introducción a HTML</h3>
-  <p align="center">con Federico Ponte</h3> 
+  <h3 align="center">Curso de Testing Unitarios con Java</h3>
+  <p align="center">con Andres Sacco</h3> 
 </div>
-# Crehana - Testing unitario en Java - Catalogo
 
 Este repositorio contiene todo el código relacionado con el proyecto final que deberán realizar todos los estudiantes del curso.
 
