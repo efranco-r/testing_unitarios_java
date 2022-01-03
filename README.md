@@ -2,7 +2,7 @@
   <a href="https://www.crehana.com">
     <img src="images/logo.png" alt="Logo" width="50" height="50">
   </a>
-  <a href="https://www.crehana.com/clases/v2/12147/detalle/">
+  <a href="https://www.crehana.com/">
     <img src="images/curso.png" alt="Logo" width="160" height="50">
   </a>
   <a href="https://www.linkedin.com/in/saccoandres/">
@@ -50,7 +50,7 @@ Esta aplicación tiene una arquitectura básica sin el uso de ninguna base de da
   
 La aplicación esta separada en distintas capas cada una tiene una funcionalidad especifica. Veamos primero cuales son las capas que posee la aplicación:
 
-![Layers](.images/Layers.png)
+![Layers](./images/Layers.png)
   
 Ahora una breve explicación acerca de cada una de las capas:
   
