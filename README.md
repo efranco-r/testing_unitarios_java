@@ -1,3 +1,25 @@
+<div id="top">
+  <a href="https://www.crehana.com">
+    <img src="images/logo.png" alt="Logo" width="50" height="50">
+  </a>
+  <a href="https://www.crehana.com/clases/v2/12147/detalle/">
+    <img src="images/curso.png" alt="Logo" width="160" height="50">
+  </a>
+  <a href="https://www.linkedin.com/in/pontefederico/">
+    <img src="images/teacher.png" alt="Logo" width="160" height="50">
+  </a>
+</div>
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/crehana-studentxp/html-introduccion">
+    <img src="images/project.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Curso de Introducción a HTML</h3>
+  <p align="center">con Federico Ponte</h3> 
+</div>
 # Crehana - Testing unitario en Java - Catalogo
 
 Este repositorio contiene todo el código relacionado con el proyecto final que deberán realizar todos los estudiantes del curso.
@@ -59,3 +81,17 @@ Para ejecutar la aplicación se debera abrir la clase **App** y ejecutarla ya qu
 Algunas consideraciones que van a hacer que los estudiantes logren un mejor resultado:
 - Las librerías de testing que se vayan a agregar se deben considerar agregarlas en el **pom.xml** con **<scope>test</scope>** esto hace que las mismas solo se agreguen en la etapa de testing. Si por alguna razón se genera el jar de la aplicación la misma no contendrá las librerías de testing, ya que no son necesarias para que la aplicación funcione.a aplicación la misma no contendrá las librerías de testing, ya que no son necesarias para que la aplicación funcione.
 - Para buscar cual es la ultima version de las librerías se recomienda usar [mvnrepository](https://mvnrepository.com/)
+
+## Licencia
+
+Distribuido bajo la licencia MIT License. 
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- CONTACT -->
+## Contacto
+
+¿Tienes comentarios sobre los archivos del curso? Envíanos un correo a proyectos@crehana.com
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
