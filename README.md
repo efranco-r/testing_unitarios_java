@@ -50,7 +50,7 @@ Esta aplicación tiene una arquitectura básica sin el uso de ninguna base de da
   
 La aplicación esta separada en distintas capas cada una tiene una funcionalidad especifica. Veamos primero cuales son las capas que posee la aplicación:
 
-![Layers](./images/Layers.png)
+![Layers](images/Layers.png)
   
 Ahora una breve explicación acerca de cada una de las capas:
   
