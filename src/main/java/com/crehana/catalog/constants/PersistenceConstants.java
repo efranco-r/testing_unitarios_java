@@ -9,5 +9,5 @@ public class PersistenceConstants {
     public static final String CITY_WITH_THE_SAME_INFORMATION = "There is a city with the same information";
     public static final String CITY_NOT_EXIST = "The city not exist";
 
-    private PersistenceConstants() {}
+    private PersistenceConstants() {} 
 }

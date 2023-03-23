@@ -32,7 +32,7 @@ public class CityServiceTest {
 
     @Test
     @DisplayName("Should validate than city doesn't exist")
-    public void should_validate_city_not_exist(){
+    public void should_validate_city_not_exist() {
         //Given
         final String caliCityCode = "CLI";
         
@@ -45,7 +45,7 @@ public class CityServiceTest {
 
     @Test
     @DisplayName("Should validate than city exist")
-    public void should_validate_city_exist(){
+    public void should_validate_city_exist() {
         //Given
         final String bogotaCityCode = "BOG";
         
@@ -58,7 +58,7 @@ public class CityServiceTest {
 
     @Test
     @DisplayName("Should show exception message because city code is null")
-    public void should_show_message_exception_city_code_is_null(){
+    public void should_show_message_exception_city_code_is_null() {
         //Given
         CityDTO emptyCity = city;
         
@@ -71,7 +71,7 @@ public class CityServiceTest {
 
     @Test
     @DisplayName("Should create a new city")
-    public void should_create_new_city(){
+    public void should_create_new_city() {
         //Given
         city.setCode("CTG");
         city.setName("Cartagena de Indias");
@@ -86,7 +86,7 @@ public class CityServiceTest {
 
     @Test
     @DisplayName("Shouldn't create a new city because that exist")
-    public void should_not_create_city_because_that_exist(){
+    public void should_not_create_city_because_that_exist() {
         //Given
         city.setCode("BOG");
         city.setName("Bogotá");
@@ -100,7 +100,7 @@ public class CityServiceTest {
 
     @Test
     @DisplayName("Should show business exception when we try to update a city with city code is null")
-    public void should_show_exception_when_try_update_city_with_cityCode_null(){
+    public void should_show_exception_when_try_update_city_with_cityCode_null() {
         //Given
         city.setCode(null);
         
@@ -113,7 +113,7 @@ public class CityServiceTest {
 
     @Test
     @DisplayName("Should show business exception when we try to update a city with city code is null")
-    public void should_show_exception_when_try_update_existented_city_with_cityCode_noFound(){
+    public void should_show_exception_when_try_update_existented_city_with_cityCode_noFound() {
         //Given
         city.setCode("MED");
         city.setName("Medellin");
@@ -127,7 +127,7 @@ public class CityServiceTest {
 
     @Test
     @DisplayName("Should update the name of an existing city")
-    public void should_update_city_name(){
+    public void should_update_city_name() {
         //Given
         city.setCode("CTG");
         city.setName("Cartagena");

@@ -36,7 +36,7 @@ public class CityService {
         if(!existCity.isPresent()) {
             persistence.create(city);
         } else {
-            throw new CrehanaException(PersistenceConstants.CITY_WITH_THE_SAME_INFORMATION);
+            throw new CrehanaException(PersistenceConstants.CITY_WITH_THE_SAME_INFORMATION); 
         }
     }
 

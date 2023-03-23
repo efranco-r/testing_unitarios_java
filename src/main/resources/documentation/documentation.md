@@ -1,7 +1,8 @@
 | CASOS DE PRUEBA ||
 |:-----------------|:-----------------|
-| AUTOR           |Eduardo Jose Franco Rivera|
-| FECHA           |01/03/2023|
+| AUTOR             |Eduardo Jose Franco Rivera|
+| FECHA             |01/03/2023|
+| FECHA MODIFICACIÓN|23/03/2023|
 
 | OBJETIVO        | CAPA | CLASE | METODO | CUANDO | DADO | ENTONCES |
 |-----------------|------|-------|--------|--------|------|----------|

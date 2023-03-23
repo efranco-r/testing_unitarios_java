@@ -51,6 +51,6 @@ public class CityDTO {
                 return false;
         } else if (!code.equals(other.code))
             return false;
-        return true;
+        return true; 
     } 
 }
