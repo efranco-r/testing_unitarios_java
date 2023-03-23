@@ -33,10 +33,10 @@ public class CityService {
     public void create(CityDTO city) {
         Optional<CityDTO> existCity = persistence.existCity(city.getCode());
 
-        if(existCity.isPresent()) {
+        if(!existCity.isPresent()) {
             persistence.create(city);
         } else {
-            throw new CrehanaException(PersistenceConstants.CITY_NOT_EXIST);
+            throw new CrehanaException(PersistenceConstants.CITY_WITH_THE_SAME_INFORMATION);
         }
     }
 
